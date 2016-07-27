@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/first_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/second_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_pluse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/bt_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/bt_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/bt_divid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/bt_persent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/bt_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="계산  결과" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="계산 결과:"
+        android:textColor="#405454"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="copywrite choi in chul"/>
+</LinearLayout>
